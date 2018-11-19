@@ -1,0 +1,232 @@
+<------------------------------------------------------------------------------->
+<----------------------------------CANDY CRUSH---------------------------------->
+<------------------------------------------------------------------------------->
+
+<--------------------------------------KEY-------------------------------------->
+
+Color:   r = red, y = yellow, b = blue, g = green, o = orange, C = Colored, * = crushed
+Type:    r = regular, V = vertical striped, H = horizontal striped, W = wrapped, C = Colored
+Example: g r = green regular, r W = red wrapped, C C = colored colored
+
+<------------------------------------------------------------------------------->
+
+You have 3 turns remaining
+
+	1	2	3	4	5	6	7	8	9	10	
+1	b r	o r	b r	b r	g r	r r	g r	g r	y r	r r	
+2	r r	o r	r r	r r	b r	o r	r r	r r	g r	g r	
+3	y r	b r	g r	r r	r r	o r	o r	g r	b r	y r	
+4	b r	g r	b r	b r	o r	r r	b r	b r	o r	r r	
+5	g r	y r	b r	g r	y r	b r	b r	y r	b r	r r	
+6	y r	o r	y r	g r	r r	y r	y r	g r	b r	g r	
+7	o r	r r	b r	o r	g r	g r	b r	y r	r r	r r	
+8	y r	o r	o r	r r	o r	g r	y r	b r	o r	y r	
+9	y r	g r	b r	o r	b r	r r	b r	y r	y r	g r	
+10	g r	o r	b r	g r	b r	o r	b r	o r	r r	y r	
+
+Enter starting row: 
+8
+Enter starting column: 
+4
+Enter ending row: 
+8
+Enter ending column: 
+5
+	1	2	3	4	5	6	7	8	9	10	
+1	b r	o r	b r	b r	g r	r r	g r	g r	y r	r r	
+2	r r	o r	r r	r r	b r	o r	r r	r r	g r	g r	
+3	y r	b r	g r	r r	r r	o r	o r	g r	b r	y r	
+4	b r	g r	b r	b r	o r	r r	b r	b r	o r	r r	
+5	g r	y r	b r	g r	y r	b r	b r	y r	b r	r r	
+6	y r	o r	y r	g r	r r	y r	y r	g r	b r	g r	
+7	o r	r r	b r	* r	g r	g r	b r	y r	r r	r r	
+8	y r	* r	* r	* r	r r	g r	y r	b r	o r	y r	
+9	y r	g r	b r	o W	b r	r r	b r	y r	y r	g r	
+10	g r	o r	b r	g r	b r	o r	b r	o r	r r	y r	
+
+	1	2	3	4	5	6	7	8	9	10	
+1	b r	o r	o r	g r	g r	r r	g r	g r	y r	r r	
+2	r r	o r	b r	b r	b r	o r	r r	r r	g r	g r	
+3	y r	o r	r r	b r	r r	o r	o r	g r	b r	y r	
+4	b r	b r	g r	r r	o r	r r	b r	b r	o r	r r	
+5	g r	g r	b r	r r	y r	b r	b r	y r	b r	r r	
+6	y r	y r	b r	b r	r r	y r	y r	g r	b r	g r	
+7	o r	o r	y r	g r	g r	g r	b r	y r	r r	r r	
+8	y r	r r	b r	g r	r r	g r	y r	b r	o r	y r	
+9	y r	g r	b r	o W	b r	r r	b r	y r	y r	g r	
+10	g r	o r	b r	g r	b r	o r	b r	o r	r r	y r	
+
+	1	2	3	4	5	6	7	8	9	10	
+1	b r	* r	o r	g r	g r	r r	g r	g r	y r	r r	
+2	r r	* r	* r	* r	* r	o r	r r	r r	g r	g r	
+3	y r	* r	r r	b r	r r	o r	o r	g r	b r	y r	
+4	b r	b r	g r	r r	o r	r r	b r	b r	o r	r r	
+5	g r	g r	b r	r r	y r	b r	b r	y r	b r	r r	
+6	y r	y r	b r	b r	r r	y r	y r	g r	b r	g r	
+7	o r	o r	y r	* r	* r	* r	b r	y r	r r	r r	
+8	y r	r r	* r	g r	r r	g r	y r	b r	o r	y r	
+9	y r	g r	* r	o W	b r	r r	b r	y r	y r	g r	
+10	g r	o r	* r	g r	b r	o r	b r	o r	r r	y r	
+
+	1	2	3	4	5	6	7	8	9	10	
+1	b r	g r	r r	b r	y r	b r	g r	g r	y r	r r	
+2	r r	r r	r r	o r	y r	r r	r r	r r	g r	g r	
+3	y r	y r	g r	g r	g r	o r	o r	g r	b r	y r	
+4	b r	b r	y r	b r	r r	o r	b r	b r	o r	r r	
+5	g r	g r	o r	r r	o r	r r	b r	y r	b r	r r	
+6	y r	y r	r r	r r	y r	b r	y r	g r	b r	g r	
+7	o r	o r	g r	b r	r r	y r	b r	y r	r r	r r	
+8	y r	r r	b r	g r	r r	g r	y r	b r	o r	y r	
+9	y r	g r	b r	o W	b r	r r	b r	y r	y r	g r	
+10	g r	o r	y r	g r	b r	o r	b r	o r	r r	y r	
+
+	1	2	3	4	5	6	7	8	9	10	
+1	b r	g r	r r	b r	y r	b r	g r	g r	y r	r r	
+2	* r	* r	* r	o r	y r	* r	* r	* r	g r	g r	
+3	y r	y r	* r	* r	* r	o r	o r	g r	b r	y r	
+4	b r	b r	y r	b r	r r	o r	b r	b r	o r	r r	
+5	g r	g r	o r	r r	o r	r r	b r	y r	b r	r r	
+6	y r	y r	r r	r r	y r	b r	y r	g r	b r	g r	
+7	o r	o r	g r	b r	r r	y r	b r	y r	r r	r r	
+8	y r	r r	b r	g r	r r	g r	y r	b r	o r	y r	
+9	y r	g r	b r	o W	b r	r r	b r	y r	y r	g r	
+10	g r	o r	y r	g r	b r	o r	b r	o r	r r	y r	
+
+	1	2	3	4	5	6	7	8	9	10	
+1	r r	b r	y r	y r	g r	r r	b r	r r	y r	r r	
+2	b r	g r	r r	b r	y r	b r	g r	g r	g r	g r	
+3	y r	y r	r r	o r	y r	o r	o r	g r	b r	y r	
+4	b r	b r	y r	b r	r r	o r	b r	b r	o r	r r	
+5	g r	g r	o r	r r	o r	r r	b r	y r	b r	r r	
+6	y r	y r	r r	r r	y r	b r	y r	g r	b r	g r	
+7	o r	o r	g r	b r	r r	y r	b r	y r	r r	r r	
+8	y r	r r	b r	g r	r r	g r	y r	b r	o r	y r	
+9	y r	g r	b r	o W	b r	r r	b r	y r	y r	g r	
+10	g r	o r	y r	g r	b r	o r	b r	o r	r r	y r	
+
+	1	2	3	4	5	6	7	8	9	10	
+1	r r	b r	y r	y r	g r	r r	b r	r r	y r	r r	
+2	b r	g r	r r	b r	y r	b r	g V	* r	* r	* r	
+3	y r	y r	r r	o r	y r	o r	o r	g r	b r	y r	
+4	b r	b r	y r	b r	r r	o r	b r	b r	o r	r r	
+5	g r	g r	o r	r r	o r	r r	b r	y r	b r	r r	
+6	y r	y r	r r	r r	y r	b r	y r	g r	b r	g r	
+7	o r	o r	g r	b r	r r	y r	b r	y r	r r	r r	
+8	y r	r r	b r	g r	r r	g r	y r	b r	o r	y r	
+9	y r	g r	b r	o W	b r	r r	b r	y r	y r	g r	
+10	g r	o r	y r	g r	b r	o r	b r	o r	r r	y r	
+
+	1	2	3	4	5	6	7	8	9	10	
+1	r r	b r	y r	y r	g r	r r	b r	g r	b r	b r	
+2	b r	g r	r r	b r	y r	b r	g V	r r	y r	r r	
+3	y r	y r	r r	o r	y r	o r	o r	g r	b r	y r	
+4	b r	b r	y r	b r	r r	o r	b r	b r	o r	r r	
+5	g r	g r	o r	r r	o r	r r	b r	y r	b r	r r	
+6	y r	y r	r r	r r	y r	b r	y r	g r	b r	g r	
+7	o r	o r	g r	b r	r r	y r	b r	y r	r r	r r	
+8	y r	r r	b r	g r	r r	g r	y r	b r	o r	y r	
+9	y r	g r	b r	o W	b r	r r	b r	y r	y r	g r	
+10	g r	o r	y r	g r	b r	o r	b r	o r	r r	y r	
+
+
+Your current score is: 28
+You have 2 turns remaining
+
+Enter starting row: 
+2
+Enter starting column: 
+7
+Enter ending row: 
+2
+Enter ending column: 
+8
+	1	2	3	4	5	6	7	8	9	10	
+1	r r	b r	y r	y r	g r	r r	b r	* r	b r	b r	
+2	b r	g r	r r	b r	y r	b r	r r	* V	y r	r r	
+3	y r	y r	r r	o r	y r	o r	o r	* r	b r	y r	
+4	b r	b r	y r	b r	r r	o r	b r	* r	o r	r r	
+5	g r	g r	o r	r r	o r	r r	b r	* r	b r	r r	
+6	y r	y r	r r	r r	y r	b r	y r	* r	b r	g r	
+7	o r	o r	g r	b r	r r	y r	b r	* r	r r	r r	
+8	y r	r r	b r	g r	r r	g r	y r	* r	o r	y r	
+9	y r	g r	b r	o W	b r	r r	b r	* r	y r	g r	
+10	g r	o r	y r	g r	b r	o r	b r	* r	r r	y r	
+
+	1	2	3	4	5	6	7	8	9	10	
+1	r r	b r	y r	y r	g r	r r	b r	o r	b r	b r	
+2	b r	g r	r r	b r	y r	b r	r r	b r	y r	r r	
+3	y r	y r	r r	o r	y r	o r	o r	r r	b r	y r	
+4	b r	b r	y r	b r	r r	o r	b r	b r	o r	r r	
+5	g r	g r	o r	r r	o r	r r	b r	b r	b r	r r	
+6	y r	y r	r r	r r	y r	b r	y r	g r	b r	g r	
+7	o r	o r	g r	b r	r r	y r	b r	r r	r r	r r	
+8	y r	r r	b r	g r	r r	g r	y r	o r	o r	y r	
+9	y r	g r	b r	o W	b r	r r	b r	y r	y r	g r	
+10	g r	o r	y r	g r	b r	o r	b r	g r	r r	y r	
+
+	1	2	3	4	5	6	7	8	9	10	
+1	r r	b r	y r	y r	g r	r r	b r	o r	b r	b r	
+2	b r	g r	r r	b r	y r	b r	r r	b r	y r	r r	
+3	y r	y r	r r	o r	y r	o r	o r	r r	b r	y r	
+4	b r	b r	y r	b r	r r	o r	b r	b r	o r	r r	
+5	g r	g r	o r	r r	o r	r r	* r	* r	* r	r r	
+6	y r	y r	r r	r r	y r	b r	y r	g r	b r	g r	
+7	o r	o r	g r	b r	r r	y r	b r	* r	* r	* r	
+8	y r	r r	b r	g r	r r	g r	y r	o r	o r	y r	
+9	y r	g r	b r	o W	b r	r r	b r	y r	y r	g r	
+10	g r	o r	y r	g r	b r	o r	b r	g r	r r	y r	
+
+	1	2	3	4	5	6	7	8	9	10	
+1	r r	b r	y r	y r	g r	r r	r r	o r	r r	y r	
+2	b r	g r	r r	b r	y r	b r	b r	g r	y r	b r	
+3	y r	y r	r r	o r	y r	o r	r r	o r	b r	r r	
+4	b r	b r	y r	b r	r r	o r	o r	b r	y r	y r	
+5	g r	g r	o r	r r	o r	r r	b r	r r	b r	r r	
+6	y r	y r	r r	r r	y r	b r	y r	b r	o r	r r	
+7	o r	o r	g r	b r	r r	y r	b r	g r	b r	g r	
+8	y r	r r	b r	g r	r r	g r	y r	o r	o r	y r	
+9	y r	g r	b r	o W	b r	r r	b r	y r	y r	g r	
+10	g r	o r	y r	g r	b r	o r	b r	g r	r r	y r	
+
+
+Your current score is: 44
+You have 1 turns remaining
+
+Enter starting row: 
+5
+Enter starting column: 
+5
+Enter ending row: 
+5
+Enter ending column: 
+6
+	1	2	3	4	5	6	7	8	9	10	
+1	r r	b r	y r	y r	g r	r r	r r	o r	r r	y r	
+2	b r	g r	r r	b r	y r	b r	b r	g r	y r	b r	
+3	y r	y r	r r	o r	y r	* r	r r	o r	b r	r r	
+4	b r	b r	y r	b r	r r	* r	o r	b r	y r	y r	
+5	g r	g r	o r	r r	r r	* r	b r	r r	b r	r r	
+6	y r	y r	r r	r r	y r	b r	y r	b r	o r	r r	
+7	o r	o r	g r	b r	r r	y r	b r	g r	b r	g r	
+8	y r	r r	b r	g r	r r	g r	y r	o r	o r	y r	
+9	y r	g r	b r	o W	b r	r r	b r	y r	y r	g r	
+10	g r	o r	y r	g r	b r	o r	b r	g r	r r	y r	
+
+	1	2	3	4	5	6	7	8	9	10	
+1	r r	b r	y r	y r	g r	o r	r r	o r	r r	y r	
+2	b r	g r	r r	b r	y r	g r	b r	g r	y r	b r	
+3	y r	y r	r r	o r	y r	o r	r r	o r	b r	r r	
+4	b r	b r	y r	b r	r r	r r	o r	b r	y r	y r	
+5	g r	g r	o r	r r	r r	b r	b r	r r	b r	r r	
+6	y r	y r	r r	r r	y r	b r	y r	b r	o r	r r	
+7	o r	o r	g r	b r	r r	y r	b r	g r	b r	g r	
+8	y r	r r	b r	g r	r r	g r	y r	o r	o r	y r	
+9	y r	g r	b r	o W	b r	r r	b r	y r	y r	g r	
+10	g r	o r	y r	g r	b r	o r	b r	g r	r r	y r	
+
+
+Your current score is: 47
+You have 0 turns remaining
+
+Game has ended!
+<------------------------------------------------------------------------------->
