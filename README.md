@@ -36,53 +36,52 @@ The user continues to crush candy until the number of turns reaches zero.
 ![alt text](https://github.com/Daneeail/Candy-Crush/blob/master/screenshots/CandyCrush1.png)
 
 ![alt text](https://github.com/Daneeail/Candy-Crush/blob/master/screenshots/CandyCrush1.png)
-
 Shows the progression of the game.  For each move, the game will indicate the number of momes remaining, set of candy that was crushed, any speical candy that may have been created, and the player's score.
 
-![alt text](https://github.com/Daneeail/Candy-Crush/blob/master/screenshots/createColored.png)
 
+![alt text](https://github.com/Daneeail/Candy-Crush/blob/master/screenshots/createColored.png)
 Colored candy is created
 
-![alt text](https://github.com/Daneeail/Candy-Crush/blob/master/screenshots/createStriped.png)
 
+![alt text](https://github.com/Daneeail/Candy-Crush/blob/master/screenshots/createStriped.png)
 Striped candy is created
 
-![alt text](https://github.com/Daneeail/Candy-Crush/blob/master/screenshots/createWrapped.png)
 
+![alt text](https://github.com/Daneeail/Candy-Crush/blob/master/screenshots/createWrapped.png)
 Wrapped candy is created
 
-![alt text](https://github.com/Daneeail/Candy-Crush/blob/master/screenshots/useColored.png)
 
+![alt text](https://github.com/Daneeail/Candy-Crush/blob/master/screenshots/useColored.png)
 Colored candy is used
 
-![alt text](https://github.com/Daneeail/Candy-Crush/blob/master/screenshots/useStriped.png)
 
+![alt text](https://github.com/Daneeail/Candy-Crush/blob/master/screenshots/useStriped.png)
 Striped candy is used
 
-![alt text](https://github.com/Daneeail/Candy-Crush/blob/master/screenshots/useWrapped.png)
 
+![alt text](https://github.com/Daneeail/Candy-Crush/blob/master/screenshots/useWrapped.png)
 Wrapped candy is used
 
-![alt text](https://github.com/Daneeail/Candy-Crush/blob/master/screenshots/useColoredColored.png)
 
+![alt text](https://github.com/Daneeail/Candy-Crush/blob/master/screenshots/useColoredColored.png)
 Two colored candies are combined
 
-![alt text](https://github.com/Daneeail/Candy-Crush/blob/master/screenshots/useColoredStriped.png)
 
+![alt text](https://github.com/Daneeail/Candy-Crush/blob/master/screenshots/useColoredStriped.png)
 A colored and striped candy are combined
 
-![alt text](https://github.com/Daneeail/Candy-Crush/blob/master/screenshots/useColoredWrapped.png)
 
+![alt text](https://github.com/Daneeail/Candy-Crush/blob/master/screenshots/useColoredWrapped.png)
 A colored and wrapped candy are combined
 
-![alt text](https://github.com/Daneeail/Candy-Crush/blob/master/screenshots/useStripedStriped.png)
 
+![alt text](https://github.com/Daneeail/Candy-Crush/blob/master/screenshots/useStripedStriped.png)
 Two striped candies are combined
 
-![alt text](https://github.com/Daneeail/Candy-Crush/blob/master/screenshots/useStripedWrapped.png)
 
+![alt text](https://github.com/Daneeail/Candy-Crush/blob/master/screenshots/useStripedWrapped.png)
 A striped and wrapped candy are combined
 
-![alt text](https://github.com/Daneeail/Candy-Crush/blob/master/screenshots/useWrappedWrapped.png)
 
+![alt text](https://github.com/Daneeail/Candy-Crush/blob/master/screenshots/useWrappedWrapped.png)
 Two wrapped candies are combined
