@@ -153,7 +153,7 @@ public class Board {
 	
 		
 	// Checks whether the user seeks to swap two special candies
-	public boolean isSwapCombinationCandy(int[] coordinates) {
+	private boolean isSwapCombinationCandy(int[] coordinates) {
 		int startRow = coordinates[0];
 		int startColumn = coordinates[1];
 		int endRow = coordinates[2];
@@ -167,7 +167,7 @@ public class Board {
 	}
 		
 	// Checks whether the user seeks to swap with a colored candy
-	public boolean isSwapColorCandy(int[] coordinates) {
+	private boolean isSwapColorCandy(int[] coordinates) {
 		int startRow = coordinates[0];
 		int startColumn = coordinates[1];
 		int endRow = coordinates[2];
@@ -187,7 +187,7 @@ public class Board {
 	
 	
 	// Checks if the user-provided coordinates result in a move that produces a crushable set of candy
-	public boolean isCrushable(int[] coordinates) {
+	private boolean isCrushable(int[] coordinates) {
 		if (isTopCrushable(coordinates) || isBottomCrushable(coordinates) ||
 				isRightCrushable(coordinates) || isLeftCrushable(coordinates)) {
 			return true;
@@ -199,7 +199,7 @@ public class Board {
 	
 	// Checks if the user-provided coordinates result in a move that produces a crushable set of candy
 	// When the user moves up
-	public boolean isTopCrushable(int[] coordinates) {
+	private boolean isTopCrushable(int[] coordinates) {
 		int startRow = coordinates[0];
 		int startColumn = coordinates[1];
 		int endRow = coordinates[2];
@@ -261,7 +261,7 @@ public class Board {
 	
 	// Checks if the user-provided coordinates result in a move that produces a crushable set of candy
 	// When the user moves down
-	public boolean isBottomCrushable(int[] coordinates) {
+	private boolean isBottomCrushable(int[] coordinates) {
 		int startRow = coordinates[0];
 		int startColumn = coordinates[1];
 		int endRow = coordinates[2];
@@ -323,7 +323,7 @@ public class Board {
 	
 	// Checks if the user-provided coordinates result in a move that produces a crushable set of candy
 	// When the user moves right
-	public boolean isRightCrushable(int[] coordinates) {
+	private boolean isRightCrushable(int[] coordinates) {
 		int startRow = coordinates[0];
 		int startColumn = coordinates[1];
 		int endRow = coordinates[2];
@@ -385,7 +385,7 @@ public class Board {
 	
 	// Checks if the user-provided coordinates result in a move that produces a crushable set of candy
 	// When the user moves left
-	public boolean isLeftCrushable(int[] coordinates) {
+	private boolean isLeftCrushable(int[] coordinates) {
 		int startRow = coordinates[0];
 		int startColumn = coordinates[1];
 		int endRow = coordinates[2];
@@ -452,7 +452,7 @@ public class Board {
 	
 	
 	// Swaps the position of two regular candies if the move is valid and results in a crushed set of candy
-	public boolean swapRegularCandy(int[] coordinates) {
+	private boolean swapRegularCandy(int[] coordinates) {
 		int startRow = coordinates[0];
 		int startColumn = coordinates[1];
 		int endRow = coordinates[2];
@@ -476,7 +476,7 @@ public class Board {
 	}
 	
 	// Swaps a combination if the move is valid and the two candies are special
-	public boolean swapCombinationCandy(int[] coordinates) {
+	private boolean swapCombinationCandy(int[] coordinates) {
 		if (isValidSwap(coordinates) && isSwapCombinationCandy(coordinates)) {
 			crushCombinationCandy(coordinates);
 			return true;
@@ -487,7 +487,7 @@ public class Board {
 	}
 	
 	// Swaps a colored candy and regular candy if the move is valid and one candy is colored
-	public boolean swapColorCandy(int[] coordinates) {
+	private boolean swapColorCandy(int[] coordinates) {
 		if (isValidSwap(coordinates) && isSwapColorCandy(coordinates)) {
 			crushColorCandy(coordinates);
 			return true;
@@ -505,7 +505,7 @@ public class Board {
 	
 	// Crushes colored candy
 	// If colored candy is used, will crush all candies of the paired candy's color
-	public void crushColorCandy(int[] coordinates) {
+	private void crushColorCandy(int[] coordinates) {
 		int startRow = coordinates[0];
 		int startColumn = coordinates[1];
 		int endRow = coordinates[2];
@@ -542,7 +542,7 @@ public class Board {
 	}
 	
 	// Depending on the type of combination, crushes candy in a particular pattern
-	public void crushCombinationCandy(int[] coordinates) {
+	private void crushCombinationCandy(int[] coordinates) {
 		int startRow = coordinates[0];
 		int startColumn = coordinates[1];
 		int endRow = coordinates[2];
@@ -564,7 +564,7 @@ public class Board {
 	}
 	
 	// Crushes a combination in which the first candy is striped
-	public void crushStartWithStriped(int[] coordinates) {
+	private void crushStartWithStriped(int[] coordinates) {
 		int startRow = coordinates[0];
 		int startColumn = coordinates[1];
 		int endRow = coordinates[2];
@@ -652,7 +652,7 @@ public class Board {
 	}
 	
 	// Crushes a combination in which the first candy is wrapped
-	public void crushStartWithWrapped(int[] coordinates) {
+	private void crushStartWithWrapped(int[] coordinates) {
 		int startRow = coordinates[0];
 		int startColumn = coordinates[1];
 		int endRow = coordinates[2];
@@ -739,7 +739,7 @@ public class Board {
 	}
 	
 	// Crushes a combination in which the first candy is colored
-	public void crushStartWithColor(int[] coordinates) {
+	private void crushStartWithColor(int[] coordinates) {
 		int startRow = coordinates[0];
 		int startColumn = coordinates[1];
 		int endRow = coordinates[2];
@@ -809,7 +809,7 @@ public class Board {
 	}
 	
 	// Determines the actions that occur if a special candy is crushed
-	public boolean crushSpecialCandy() {
+	private boolean crushSpecialCandy() {
 		boolean crushed = false;
 		
 		// Traverse board
@@ -881,7 +881,7 @@ public class Board {
 	}
 	
 	// Crushes a single-wrapped candy
-	public void popSingleWrapped(int r, int c, String type) {
+	private void popSingleWrapped(int r, int c, String type) {
 		candyBoard[r][c].setColor("*");
 		// If it is the first pop, set the second wrapped candy
 		if (type.equals("First")) {
@@ -926,7 +926,7 @@ public class Board {
 	}
 	
 	// Crushes candy of a wrapped-wrapped combination
-	public int popDoubleWrapped(int[] coordinates) {
+	private int popDoubleWrapped(int[] coordinates) {
 		int shift = 0;
 		
 		int startRow = coordinates[0];
@@ -1068,7 +1068,7 @@ public class Board {
 	
 	// Traverses the board and identifies if there are sets that can be converted
 	// Used after swapping candy
-	public boolean convertCandy(int[] coordinates) {
+	private boolean convertCandy(int[] coordinates) {
 		boolean checkWrapper, checkVertical, checkHorizontal;
 		checkWrapper = convertWrapper();
 		checkVertical = convertVertical();
@@ -1079,7 +1079,7 @@ public class Board {
 	
 	// Traverses the board and identifies if there are sets that can be converted
 	// Used after swapping candy
-	public boolean convertCandy() {
+	private boolean convertCandy() {
 		boolean checkWrapper, checkVertical, checkHorizontal;
 		checkWrapper = convertWrapper();
 		checkVertical = convertVertical();
@@ -1089,7 +1089,7 @@ public class Board {
 	}
 	
 	// Traverses the board and identifies if there are sets that can be converted to a wrapper
-	public boolean convertWrapper() {
+	private boolean convertWrapper() {
 		boolean check = false;
 		
 		// Traverses the board
@@ -1162,7 +1162,7 @@ public class Board {
 	
 	// Traverses the board and identifies if there are sets that can be converted to a Color or HStripe
 	// If the set cannot be converted, simply crush the set
-	public boolean convertVertical() {
+	private boolean convertVertical() {
 		boolean check = false;
 		// Traverses the board
 		for (int i = row - 1; i >= 0; i--) {
@@ -1210,7 +1210,7 @@ public class Board {
 	
 	// Traverses the board and identifies if there are sets that can be converted to a Color or VStripe
 	// If the set cannot be converted, simply crush the set
-	public boolean convertHorizontal(int[] coordinates) {
+	private boolean convertHorizontal(int[] coordinates) {
 		int startRow = coordinates[0];
 		int startColumn = coordinates[1];
 		int endRow = coordinates[2];
@@ -1286,7 +1286,7 @@ public class Board {
 	
 	// Traverses the board and identifies if there are sets that can be converted to a Color or VStripe
 	// If the set cannot be converted, simply crush the set
-	public boolean convertHorizontal() {
+	private boolean convertHorizontal() {
 		boolean check = false;
 			
 		// Traverses the board
@@ -1339,7 +1339,7 @@ public class Board {
 	
 	// Used in the convertWrapper method
 	// If a horizontal set is found, check each candy in the set for a vertical set
-	public boolean checkVertical(int i, int j, String color) {
+	private boolean checkVertical(int i, int j, String color) {
 		boolean check = false;
 		int top = i;
 		int bottom = i;
@@ -1388,7 +1388,7 @@ public class Board {
 	
 	
 	// Eliminates the candy at that location and drops all candies on top of the location
-	public void dropSingleCandy(int r, int c) {
+	private void dropSingleCandy(int r, int c) {
 		for (int i = r; i > 0; i--) {
 			candyBoard[i][c].setColor(candyBoard[i - 1][c].getColor());
 			candyBoard[i][c].setType(candyBoard[i - 1][c].getType());
@@ -1398,7 +1398,7 @@ public class Board {
 	}
 	
 	// Traverses the board, and if crushed candy is found, drops the candy
-	public boolean dropCandy() {
+	private boolean dropCandy() {
 		printBoard();
 		System.out.println();
 		
@@ -1472,7 +1472,7 @@ public class Board {
 
 	// Checks whether there exists a valid swap on the board
 	// The absence of a valid swap is one of the conditions for resetting the board
-	public boolean hasValidSwap() {
+	private boolean hasValidSwap() {
 		int[] coordinates = new int[4];
 		
 		// Check if there exists a valid right or left swap on the board
@@ -1520,7 +1520,7 @@ public class Board {
 	
 	// Checks whether the board has a combination of special candy
 	// The absence of a combination is condition for resetting the board
-	public boolean hasCombination() {
+	private boolean hasCombination() {
 		for (int i = 0; i < row; i++) {
 			for (int j = 0; j < column; j++) {
 				// Checks if there is at least one colored candy on the board
